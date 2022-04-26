@@ -1,0 +1,86 @@
+    1   whoami
+    2  pwd
+    3  ls
+    4  cat /etc/os-release
+    5  pwd
+    6  cd ..
+    7  ls
+    8  cd ..
+    9  ls
+   10  pwd
+   11  cd /bin
+   12  ls
+   13  cd  /sbin/
+   14  ls
+   15  cd /etc/
+   16  ls
+   17  cat /etc/hostname
+   18  cd /tmp/
+   19  ls
+   20  cd ..
+   21  ls
+   22  cd /boot/
+   23  ls
+   24  cd /proc/
+   25  ls
+   26  uptime
+   27  cat /proc/uptime
+   28  cd ..
+   29  cd /home/ec2-user
+   30  ls -ll
+   31  mkdir dir1
+   32  mkdir dir2
+   33  ls
+   34  touch testfile1.txt
+   35  ls
+   36  touch \file{1..10}.txt
+   37  ls
+   38  cp file1.txt dir1/
+   39   ls dir1/
+   40  cp dir1 dir2/
+   41   ls dir1/
+   42  ls -ll
+   43  pwd
+   44  cp dir1 dir2
+   45  cp -r dir1 dir2
+   46  ls dir2/
+   47  ls -ll dir2/
+   48  pwd
+   49  ls /home/ec2-user/dir2
+   50  mv file3.txt new/
+   51  mv file3.txt dir2/
+   52  ls dir2/
+   53  mkdir textdir
+   54  ls
+   55  mv *.txt textdir/
+   56  ls
+   57    rm file10.txt
+   58  cd textdir/
+   59  ls
+   60    rm file10.txt
+   61  ls
+   62    rm file10.txt
+   63  ls
+   64  cd ..
+   65  mkdir newdir
+   66  ls
+   67  rm newdir/
+   68  rm -r newdir/
+   69  ls
+   70  mkdir newdir2/file1.txt
+   71  mkdir -p newdir1/dir2/dir3
+   72  ls
+   73  cd newdir1/
+   74  ls -ltr
+   75  cd ..
+   76  rm -r newdir1/
+   77  ls
+   78  rm -rf newdir1/
+   79  ls
+   80  history > basic-linux.txt
+   81  ls
+   82  ls -ll
+   83  chmod +x basic-linux.txt 
+   84  ls
+   85  history
+   86  history > basic_linux.txt
